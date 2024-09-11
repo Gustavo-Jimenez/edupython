@@ -7,14 +7,18 @@ def fibonacci():
     Make sure to ask the user to enter the number of numbers in the sequence to generate.
     (Hint: The Fibonnaci seqence is a sequence of numbers where the next number in the sequence is the sum of the previous two numbers in the sequence. The sequence looks like this: 1, 1, 2, 3, 5, 8, 13, …)
     '''
-    return 'potato'
+    return 'potatoes'
 
 
 def user_input():
     '''
     Ask User for the input of number, returns a number
     '''
-    return 4
+    return 155550
+
+def new_function(b):
+    return b
     
 n = user_input()
-print(fibonacci(),n)
+new_function(n)
+print(fibonacci(),new_function(n))
