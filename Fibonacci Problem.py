@@ -14,7 +14,11 @@ def user_input():
     '''
     Ask User for the input of number, returns a number
     '''
-    return 155
+    return 155550
+
+def new_function(b):
+    return b
     
 n = user_input()
-print(fibonacci(),n)
+new_function(n)
+print(fibonacci(),new_function(n))
